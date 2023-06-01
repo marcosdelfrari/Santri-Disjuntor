@@ -32,10 +32,10 @@ export default {
     Section4Component,
     FooterComponent,
   },
-  // Resto do código do componente
+
 };
 </script>
 
 <style>
-/* Estilos do componente aqui */
+
 </style>
