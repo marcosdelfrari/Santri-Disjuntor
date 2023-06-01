@@ -2,8 +2,8 @@
   <section class="section2">
     <div class="content">
       <img src="../../assets/images/produto2.png" alt="Imagem do Produto" />
-      <div id="recursos" class="options">
-        <button class="buy-button">Comprar</button>
+      <div id="recursos" class="options"><a href="https://santriweb.com.br/carrinho">
+        <button class="buy-button">Comprar</button></a>
         <button class="info-button" @click="toggleDescription">Saiba Mais</button>
       </div>
       <div v-if="showDescription" class="description">
