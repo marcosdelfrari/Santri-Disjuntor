@@ -220,6 +220,10 @@ nav {
     }
   }
 
+  .options {
+    display: flex;
+  }
+
   button {
     font-family: "Barlow", sans-serif;
     padding: 10px 20px;
@@ -233,16 +237,15 @@ nav {
     text-transform: uppercase;
     white-space: nowrap;
 
-    &.buy-button {
-      margin-right: 10px;
-    }
     &:nth-child(2) {
       background-color: #e05c11;
+      margin-left: 10px;
     }
 
     @media (min-width: 728px) {
       height: 90px;
       font-size: 24px;
+      width: 300px;
     }
   }
 
