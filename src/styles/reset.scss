@@ -1,0 +1,38 @@
+// Reset
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Body reset
+body {
+  font-family: Arial, sans-serif;
+}
+
+// Remova a aparência padrão do link
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+// Remova a lista de marcadores padrão
+ul,
+ol {
+  list-style: none;
+}
+
+// Botão reset
+button {
+  border: none;
+  outline: none;
+  background: none;
+  cursor: pointer;
+}
+
+// Estilize o elemento de foco
+*:focus {
+  outline: 2px solid dodgerblue;
+}

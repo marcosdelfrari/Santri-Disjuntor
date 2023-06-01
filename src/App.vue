@@ -1,26 +1,41 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<title>{{ title }}</title>
+  <div class="app">
+    <HeaderComponent />
+    <main>
+      <Section1Component />
+      <Section2Component />
+      <Section3Component />
+      <Section4Component />
+    </main>
+    <FooterComponent />
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HeaderComponent from "./components/header/HeaderComponent.vue"; // Importa o componente Header
+import Section1Component from "./components/main/Section1Component.vue"; // Importa o componente Section1
+import Section2Component from "./components/main/Section2Component.vue"; // Importa o componente Section2
+import Section3Component from "./components/main/Section3Component.vue"; // Importa o componente Section3
+import Section4Component from "./components/main/Section4Component.vue"; // Importa o componente Section4
+import FooterComponent from "./components/footer/FooterComponent.vue"; // Importa o componente Footer
 
 export default {
-  name: 'App',
+  mounted() {
+    document.title = "Santri Home Center";
+  },
   components: {
-    HelloWorld
-  }
-}
+    HeaderComponent,
+    Section1Component,
+    Section2Component,
+    Section3Component,
+    Section4Component,
+    FooterComponent,
+  },
+  // Resto do código do componente
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+/* Estilos do componente aqui */
 </style>
