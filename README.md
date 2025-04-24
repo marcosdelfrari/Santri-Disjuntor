@@ -1,5 +1,3 @@
-# Santri-Disjuntor
-Projeto de teste para a Santri Soluções: desenvolvimento de um protótipo de baixa fidelidade e aplicação usando Vue.js, visando avaliar habilidades técnicas e conhecimento do candidato. 
 
 # Protótipo de baixa fidelidade
 Link Desktop: https://www.figma.com/proto/A3gQYcPzIrjojcnz8TR651/PRODUCT-LANDING-PAGE-MODEL?type=design&node-id=27-3&scaling=min-zoom&page-id=27%3A2&starting-point-node-id=27%3A3
